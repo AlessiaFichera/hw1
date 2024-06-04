@@ -1,0 +1,166 @@
+body{
+    background: linear-gradient(to right, #01b183, #1f6db7);
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #070A21;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6BB008;
+}
+.logo img {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+h1{
+    font-size: 32px;
+    color: #2e6da4;
+    font-family: "Londrina Solid", "Arial Black", Gadget, sans-serif;
+}
+h5 {
+    font-size: 20px;
+    color:orange;
+    font-family: 'Source Sans Pro', sans-serif
+    }
+
+main{
+    text-align: center;
+      margin: 0 auto;
+      max-width: 600px;
+      margin-top: 2%;
+     background-color: #fff;
+     border-radius: 6%;
+     padding: 3%;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    border: 1px solid #d9dadc;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .name, .surname, .username, .email, .password, .confirm_password, .fileupload{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  
+}
+
+#visibility{
+    position: relative;
+    height: auto;
+    width: 6%;
+    left: 75%;
+    top:48px;
+    cursor: pointer;
+}
+
+.allow{
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.allow input{
+    width: 20px;
+    height: 20px;
+}
+
+.allow label{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+form img{
+    opacity: 5;
+    width: 10px;
+    margin-right: 10px;
+}
+
+form span {
+    opacity: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    transition: opacity 0.3s ease;
+}
+
+.errorj label {
+    color: #d01b2d;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+.errorj img {
+    opacity: 1;
+}
+
+.errorj input, .errorj #upload {
+    border-color: #d01b2d;
+}
+
+.submit input{
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 3px solid #3cb44a;
+    padding: 16px 14px 18px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #3cb44a;
+    transition-property: background-color, color;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.submit input:hover{
+    cursor: pointer;
+    background-color: #3cb44a;;
+    color: #fff;
+}
+
+.signup{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.banner{
+    position: relative;
+    background-image: url("immagini/immagine2.png"); 
+    background-size: auto; 
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.banner img{
+  position: absolute;
+  margin-bottom: 0;
+}
+.sfondo{
+background-color: #fff;
+width: 100%;
+height: 80px;
+}

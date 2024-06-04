@@ -1,0 +1,194 @@
+body{
+    background: linear-gradient(to right, #01b183, #1f6db7);
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #070A21;
+  }
+
+ .logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6BB008;
+ }
+.logo img {
+    height: auto;
+    width: auto;
+  }
+   
+  h1{
+    font-size: 32px;
+    color: #2e6da4;
+    font-family: "Londrina Solid", "Arial Black", Gadget, sans-serif;
+  }
+  h5 {
+      font-size: 20px;
+      color:orange;
+      font-family: 'Source Sans Pro', sans-serif
+  }
+
+  .error{
+    display: block;
+    background-color: #e22134;
+    padding: 14px 14px 12px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    width: 100.5%;
+    margin-left: -3%;
+  }
+
+  form{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d9dadc;
+  }
+
+  main{
+      text-align: center;
+      margin: 0 auto;
+      max-width: 500px;
+      margin-top: 2%;
+     background-color: #fff;
+     border-radius: 4%;
+     padding: 1%;
+     }
+
+  .username, .password{
+      width: 100%;
+      text-align: left;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      position: relative;
+  }
+  #visibility{
+    position: absolute;
+    height: auto;
+    width: 6%;
+    right: 4%;
+    top: 50%;
+    cursor: pointer;
+}
+
+  input{
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    border: 1px solid #d9dadc;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .submit-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .remember{
+    display: flex;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+  }
+
+  .remember input{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+
+  .remember label{
+    font-size: 18px;
+    padding-left: 10px;
+    color: #616467;
+    margin-top: 3px;
+  }
+
+  .login-btn{
+    width: 50%;
+    padding-right: 15px;
+  }
+  
+
+  .login-btn input{
+    border-radius: 50px;
+    padding: 16px 14px 18px;
+    margin-left: 110px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #3cb44a;
+    transition-property: background-color;
+    transition-duration: .3s;
+  }
+
+  .login-btn input:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 3px solid #3cb44a;
+    color: #3cb44a;
+  }
+
+  .signup{
+    margin: 10px 0;
+  }
+
+  h4{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .signup-btn-container{
+    padding-right: 30px;
+  }
+
+  .signup-btn{
+    display: block;
+    border-radius: 50px;
+    border: 3px solid #3cb44a;
+    padding: 16px 14px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3cb44a;
+    line-height: 1;
+    letter-spacing: 2px;
+    width: 100%;
+    transition-property: background-color, color;
+    transition-duration: .3s;
+  }
+
+  .signup-btn:hover{
+    border-radius: 50px;
+    background-color: #3cb44a;;
+    color: #fff;
+    padding: 16px 14px 18px;
+  }
+
+ .banner{
+      position: relative;
+      background-image: url("immagini/immagine2.png"); 
+      background-size: auto; 
+      background-position: bottom; 
+      background-repeat: no-repeat; 
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      height: 150px;
+  }
+  .banner img{
+    position: absolute;
+    margin-bottom: 0;
+  }
+  .sfondo{
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  }
+
+  
